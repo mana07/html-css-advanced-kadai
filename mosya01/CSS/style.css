@@ -1,0 +1,319 @@
+body{
+  font-family: 
+   'Noto Sans JP', sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+
+
+
+  
+  
+@media screen and (min-width: 767px){
+  .container{
+    margin: 0 auto;
+    max-width: 1080px;
+    /*min-width: 960px;*/
+    position: relative;
+  }
+
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    max-width: 960px;
+    margin: 20px auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  #nav > a{
+    
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 34px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+   
+  }
+
+  #nav > div{
+    display: flex;
+    text-align: center;
+  }
+
+
+  #nav > div > a{
+    
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 34px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+  }
+
+ 
+
+  #myprofile{
+    border: solid 3px black;
+    margin-left: 50px;
+    padding-left: 28px;
+    padding-right: 29px;
+  }
+
+
+
+  #nav-about{
+    /*margin-left: 129px;*/
+    margin-right: 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  #nav-works{
+    padding-left: 35px;
+    margin-right: 50px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  article{
+    display: block;
+    text-align: center;
+  }
+
+  article > div >img{
+    /*position: absolute;*/
+    left: 0;
+    top: 109px;
+    height: 400px;
+    width: 100%;
+    max-width: 960px;
+    
+  }
+  
+
+  
+  #about{
+   display: flex;
+   justify-content: center;
+  }
+  .myprofile-h1{
+    font-size: 34px;
+    font-weight: bold;
+    /*position: absolute;
+    top: 559px;
+    bottom: 615px;
+    left: 428px;
+    right: 428px;*/
+    margin: 50px auto 22px auto;
+    text-align: center;
+  }
+
+  #about > img{
+    border-radius: 50%;
+    width: 141px;
+    height: 142px;
+    margin-top: 26px;
+    margin-right: 33px;
+    object-fit: cover;
+    border: 3px solid #999;
+    padding: 3px;
+    
+  }
+
+  #about > div >h2{
+    font-size: 24px;
+    margin-bottom: 13px;
+    text-align: left;
+  }
+
+  #about > div >ul{
+    font-size: 18px;
+    text-align: left;
+  }
+
+  
+
+  #Works{
+    display: flex;
+    justify-content: center;
+  }
+
+  #Works > div >img{
+ 
+  width: 179px;
+  height: 134px;
+  }
+
+  #Works > div >p{
+    font-size: 18px;
+    color: black;
+    width: 179px;
+  }
+
+  #works1{
+    margin: 29px 9px 32px 193px;
+  }
+
+  #works2{
+    margin: 29px 9px 32px 9px;
+  }
+
+  #works3{
+    margin: 29px 194px 32px 9px;
+  }
+ footer{
+  text-align: center;
+  margin-bottom: 17px;
+ }
+  #copyright{
+
+    color: black;
+    font-size: 18px;
+    margin-bottom:17px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .container{
+    display: inline-block;
+    min-width: 375px;
+   
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  #nav > a{
+    
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+   
+  }
+
+ #nav > div{
+    display: flex;
+
+    text-align: center;
+  }
+  
+
+  #nav > div > a{
+    
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    
+  }
+
+
+  #myprofile{
+    border: solid 3px black;
+    display: inline;
+    margin-left: 20px;
+    padding-left: 28px;
+    padding-right: 29px;
+    
+  }
+ 
+  /*#nav-about{
+    margin-left: 129px;
+    margin-right: 0;
+  }
+
+  #nav-works{
+    padding-left: 35px;
+    margin-right: 183px;
+  }*/
+
+  #nav-works{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  article > div >img{
+    width: 100%;
+    text-align: center;
+  }
+
+  .myprofile-h1{
+    text-align: center;
+    
+  }
+
+  #about{
+    display: flex;
+   justify-content: center;
+   flex-direction: row;
+   align-items: center;
+    
+    
+  }
+
+  #about > img{
+    width: 121px;
+    height: 122px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    object-fit: cover;
+    border: 3px solid #999;
+    padding: 3px;
+    
+  }
+
+  #about-text > ul{
+    font-size: 10px;
+    text-align: left;
+    margin-right: 20px;
+  }
+  
+  #about-text > h2{
+    margin-left: 20px;
+  }
+
+  #Works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  #Works > div > p{
+    font-size: 12px;
+    text-align: center;
+
+  }
+
+  footer{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+}
+
+  
+
+
+
